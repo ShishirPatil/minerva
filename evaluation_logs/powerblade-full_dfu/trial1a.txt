@@ -1,0 +1,259 @@
+30:48.378 ***** Booting Zephyr OS build v2.0.99-ncs1 *****\x0D\x0A
+30:48.378 Initializing bsdlib\x0D\x0A
+30:48.644 Initialized bsdlib\x0D\x0A
+30:48.648 LTE Link Connecting ...\x0D\x0A
+32:47.624 LTE Link Connected!\x0D\x0A
+32:47.658 Press Button 1 to start the FOTA download\x0D\x0A
+32:47.661 Predicted Class: 12\x0D\x0A
+33:41.879 download_client: Attempting to connect over IPv4\x1B[0m\x0D\x0A
+33:42.543 download_client: Connected to turbomemory1.s3-us-west-1.amazonaws.com\x1B[0m\x0D\x0A
+33:42.549 download_client: Downloading: app_update.bin [0]\x1B[0m\x0D
+33:44.284 download_client: Downloaded 4096/266740 bytes (1%)\x1B[0m\x0D\x0A
+33:44.294 fota_download: Offset: 0x0\x1B[0m\x0D\x0A
+33:44.308 fota_flash_block: Erasing sector at offset 0x00000000\x1B[0m\x0D\x0A
+33:44.428 fota_flash_block: Erasing sector at offset 0x00001000\x1B[0m\x0D
+33:45.660 download_client: Downloaded 8192/266740 bytes (3%)\x1B[0m\x0D\x0A
+33:45.714 fota_flash_block: Erasing sector at offset 0x00002000\x1B[0m\x0D\x0A
+33:46.941 download_client: Downloaded 12288/266740 bytes (4%)\x1B[0m\x0D
+33:46.994 fota_flash_block: Erasing sector at offset 0x00003000\x1B[0m\x0D\x0A
+33:48.710 download_client: Downloaded 16384/266740 bytes (6%)\x1B[0m\x0D\x0A
+33:48.776 fota_flash_block: Erasing sector at offset 0x00004000\x1B[0m\x0D\x0A
+33:49.911 download_client: Downloaded 20480/266740 bytes (7%)\x1B[0m\x0D\x0A
+33:49.981 fota_flash_block: Erasing sector at offset 0x00005000\x1B[0m\x0D\x0A
+33:51.628 download_client: Downloaded 24576/266740 bytes (9%)\x1B[0m\x0D
+33:51.681 fota_flash_block: Erasing sector at offset 0x00006000\x1B[0m\x0D
+33:53.073 download_client: Downloaded 28672/266740 bytes (10%)\x1B[0m\x0D\x0A
+33:53.123 fota_flash_block: Erasing sector at offset 0x00007000\x1B[0m\x0D\x0A
+33:54.315 download_client: Downloaded 32768/266740 bytes (12%)\x1B[0m\x0D\x0A
+33:54.372 fota_flash_block: Erasing sector at offset 0x00008000\x1B[0m\x0D\x0A
+33:55.581 download_client: Downloaded 36864/266740 bytes (13%)\x1B[0m\x0D\x0A
+33:55.634 fota_flash_block: Erasing sector at offset 0x00009000\x1B[0m\x0D\x0A
+33:56.904 download_client: Downloaded 40960/266740 bytes (15%)\x1B[0m\x0D\x0A
+33:57.027 fota_flash_block: Erasing sector at offset 0x0000a000\x1B[0m\x0D\x0A
+33:58.141 download_client: Downloaded 45056/266740 bytes (16%)\x1B[0m\x0D\x0A
+33:58.194 fota_flash_block: Erasing sector at offset 0x0000b000\x1B[0m\x0D\x0A
+33:59.459 download_client: Downloaded 49152/266740 bytes (18%)\x1B[0m\x0D\x0A
+33:59.512 fota_flash_block: Erasing sector at offset 0x0000c000\x1B[0m\x0D\x0A
+34:00.674 download_client: Downloaded 53248/266740 bytes (19%)\x1B[0m\x0D
+34:00.729 fota_flash_block: Erasing sector at offset 0x0000d000\x1B[0m\x0D\x0A
+34:01.982 download_client: Downloaded 57344/266740 bytes (21%)\x1B[0m\x0D\x0A
+34:02.042 fota_flash_block: Erasing sector at offset 0x0000e000\x1B[0m\x0D\x0A
+34:03.272 download_client: Downloaded 61440/266740 bytes (23%)\x1B[0m\x0D\x0A
+34:03.340 fota_flash_block: Erasing sector at offset 0x0000f000\x1B[0m\x0D\x0A
+34:04.622 download_client: Downloaded 65536/266740 bytes (24%)\x1B[0m\x0D
+34:04.675 fota_flash_block: Erasing sector at offset 0x00010000\x1B[0m\x0D
+34:05.837 download_client: Downloaded 69632/266740 bytes (26%)\x1B[0m\x0D\x0A
+34:05.918 fota_flash_block: Erasing sector at offset 0x00011000\x1B[0m\x0D\x0A
+34:07.589 download_client: Downloaded 73728/266740 bytes (27%)\x1B[0m\x0D
+34:07.641 fota_flash_block: Erasing sector at offset 0x00012000\x1B[0m\x0D\x0A
+34:08.711 download_client: Downloaded 77824/266740 bytes (29%)\x1B[0m\x0D
+34:08.765 fota_flash_block: Erasing sector at offset 0x00013000\x1B[0m\x0D\x0A
+34:09.920 download_client: Downloaded 81920/266740 bytes (30%)\x1B[0m\x0D\x0A
+34:09.973 fota_flash_block: Erasing sector at offset 0x00014000\x1B[0m\x0D
+34:11.270 download_client: Downloaded 86016/266740 bytes (32%)\x1B[0m\x0D\x0A
+34:11.322 fota_flash_block: Erasing sector at offset 0x00015000\x1B[0m\x0D
+34:12.520 download_client: Downloaded 90112/266740 bytes (33%)\x1B[0m\x0D
+34:12.574 fota_flash_block: Erasing sector at offset 0x00016000\x1B[0m\x0D\x0A
+34:13.830 download_client: Downloaded 94208/266740 bytes (35%)\x1B[0m\x0D\x0A
+34:13.882 fota_flash_block: Erasing sector at offset 0x00017000\x1B[0m\x0D
+34:15.081 download_client: Downloaded 98304/266740 bytes (36%)\x1B[0m\x0D\x0A
+34:15.180 fota_flash_block: Erasing sector at offset 0x00018000\x1B[0m\x0D\x0A
+34:16.381 download_client: Downloaded 102400/266740 bytes (38%)\x1B[0m\x0D\x0A
+34:16.453 fota_flash_block: Erasing sector at offset 0x00019000\x1B[0m\x0D\x0A
+34:17.662 download_client: Downloaded 106496/266740 bytes (39%)\x1B[0m\x0D\x0A
+34:17.719 fota_flash_block: Erasing sector at offset 0x0001a000\x1B[0m\x0D\x0A
+34:18.940 download_client: Downloaded 110592/266740 bytes (41%)\x1B[0m\x0D\x0A
+34:19.022 fota_flash_block: Erasing sector at offset 0x0001b000\x1B[0m\x0D\x0A
+34:20.221 download_client: Downloaded 114688/266740 bytes (42%)\x1B[0m\x0D
+34:20.275 fota_flash_block: Erasing sector at offset 0x0001c000\x1B[0m\x0D
+34:21.770 download_client: Downloaded 118784/266740 bytes (44%)\x1B[0m\x0D\x0A
+34:21.825 fota_flash_block: Erasing sector at offset 0x0001d000\x1B[0m\x0D
+34:23.140 download_client: Downloaded 122880/266740 bytes (46%)\x1B[0m\x0D\x0A
+34:23.214 fota_flash_block: Erasing sector at offset 0x0001e000\x1B[0m\x0D\x0A
+34:24.391 download_client: Downloaded 126976/266740 bytes (47%)\x1B[0m\x0D
+34:24.444 fota_flash_block: Erasing sector at offset 0x0001f000\x1B[0m\x0D
+34:25.661 download_client: Downloaded 131072/266740 bytes (49%)\x1B[0m\x0D
+34:25.714 fota_flash_block: Erasing sector at offset 0x00020000\x1B[0m\x0D\x0A
+34:27.431 download_client: Downloaded 135168/266740 bytes (50%)\x1B[0m\x0D
+34:27.484 fota_flash_block: Erasing sector at offset 0x00021000\x1B[0m\x0D
+34:28.560 download_client: Downloaded 139264/266740 bytes (52%)\x1B[0m\x0D\x0A
+34:28.612 fota_flash_block: Erasing sector at offset 0x00022000\x1B[0m\x0D
+34:29.843 download_client: Downloaded 143360/266740 bytes (53%)\x1B[0m\x0D\x0A
+34:29.895 fota_flash_block: Erasing sector at offset 0x00023000\x1B[0m\x0D
+34:31.106 download_client: Downloaded 147456/266740 bytes (55%)\x1B[0m\x0D\x0A
+34:31.155 fota_flash_block: Erasing sector at offset 0x00024000\x1B[0m\x0D
+34:32.842 download_client: Downloaded 151552/266740 bytes (56%)\x1B[0m\x0D\x0A
+34:32.927 fota_flash_block: Erasing sector at offset 0x00025000\x1B[0m\x0D\x0A
+34:33.958 download_client: Downloaded 155648/266740 bytes (58%)\x1B[0m\x0D
+34:34.011 fota_flash_block: Erasing sector at offset 0x00026000\x1B[0m\x0D
+34:35.749 download_client: Downloaded 159744/266740 bytes (59%)\x1B[0m\x0D
+34:35.803 fota_flash_block: Erasing sector at offset 0x00027000\x1B[0m\x0D\x0A
+34:37.200 download_client: Downloaded 163840/266740 bytes (61%)\x1B[0m\x0D\x0A
+34:37.251 fota_flash_block: Erasing sector at offset 0x00028000\x1B[0m\x0D
+34:38.482 download_client: Downloaded 167936/266740 bytes (62%)\x1B[0m\x0D
+34:38.542 fota_flash_block: Erasing sector at offset 0x00029000\x1B[0m\x0D\x0A
+34:39.763 download_client: Downloaded 172032/266740 bytes (64%)\x1B[0m\x0D
+34:39.815 fota_flash_block: Erasing sector at offset 0x0002a000\x1B[0m\x0D
+34:40.961 download_client: Downloaded 176128/266740 bytes (66%)\x1B[0m\x0D\x0A
+34:41.014 fota_flash_block: Erasing sector at offset 0x0002b000\x1B[0m\x0D
+34:42.302 download_client: Downloaded 180224/266740 bytes (67%)\x1B[0m\x0D\x0A
+34:42.369 fota_flash_block: Erasing sector at offset 0x0002c000\x1B[0m\x0D\x0A
+34:43.553 download_client: Downloaded 184320/266740 bytes (69%)\x1B[0m\x0D
+34:43.605 fota_flash_block: Erasing sector at offset 0x0002d000\x1B[0m\x0D
+34:45.380 download_client: Downloaded 188416/266740 bytes (70%)\x1B[0m\x0D
+34:45.434 fota_flash_block: Erasing sector at offset 0x0002e000\x1B[0m\x0D\x0A
+34:46.863 download_client: Downloaded 192512/266740 bytes (72%)\x1B[0m\x0D
+34:46.915 fota_flash_block: Erasing sector at offset 0x0002f000\x1B[0m\x0D
+34:48.562 download_client: Downloaded 196608/266740 bytes (73%)\x1B[0m\x0D\x0A
+34:48.614 fota_flash_block: Erasing sector at offset 0x00030000\x1B[0m\x0D
+34:49.640 download_client: Downloaded 200704/266740 bytes (75%)\x1B[0m\x0D\x0A
+34:49.694 fota_flash_block: Erasing sector at offset 0x00031000\x1B[0m\x0D
+34:50.947 download_client: Downloaded 204800/266740 bytes (76%)\x1B[0m\x0D\x0A
+34:51.038 fota_flash_block: Erasing sector at offset 0x00032000\x1B[0m\x0D\x0A
+34:52.177 download_client: Downloaded 208896/266740 bytes (78%)\x1B[0m\x0D
+34:52.231 fota_flash_block: Erasing sector at offset 0x00033000\x1B[0m\x0D
+34:53.772 download_client: Downloaded 212992/266740 bytes (79%)\x1B[0m\x0D
+34:53.833 fota_flash_block: Erasing sector at offset 0x00034000\x1B[0m\x0D\x0A
+34:55.600 download_client: Downloaded 217088/266740 bytes (81%)\x1B[0m\x0D\x0A
+34:55.652 fota_flash_block: Erasing sector at offset 0x00035000\x1B[0m\x0D
+34:56.709 download_client: Downloaded 221184/266740 bytes (82%)\x1B[0m\x0D
+34:56.765 fota_flash_block: Erasing sector at offset 0x00036000\x1B[0m\x0D\x0A
+34:58.002 download_client: Downloaded 225280/266740 bytes (84%)\x1B[0m\x0D\x0A
+34:58.071 fota_flash_block: Erasing sector at offset 0x00037000\x1B[0m\x0D\x0A
+34:59.220 download_client: Downloaded 229376/266740 bytes (85%)\x1B[0m\x0D
+34:59.273 fota_flash_block: Erasing sector at offset 0x00038000\x1B[0m\x0D
+35:00.540 download_client: Downloaded 233472/266740 bytes (87%)\x1B[0m\x0D\x0A
+35:00.608 fota_flash_block: Erasing sector at offset 0x00039000\x1B[0m\x0D\x0A
+35:01.839 download_client: Downloaded 237568/266740 bytes (89%)\x1B[0m\x0D
+35:01.907 fota_flash_block: Erasing sector at offset 0x0003a000\x1B[0m\x0D\x0A
+35:03.104 download_client: Downloaded 241664/266740 bytes (90%)\x1B[0m\x0D
+35:03.192 fota_flash_block: Erasing sector at offset 0x0003b000\x1B[0m\x0D\x0A
+35:04.350 download_client: Downloaded 245760/266740 bytes (92%)\x1B[0m\x0D
+35:04.406 fota_flash_block: Erasing sector at offset 0x0003c000\x1B[0m\x0D\x0A
+35:06.171 download_client: Downloaded 249856/266740 bytes (93%)\x1B[0m\x0D
+35:06.225 fota_flash_block: Erasing sector at offset 0x0003d000\x1B[0m\x0D\x0A
+35:07.619 download_client: Downloaded 253952/266740 bytes (95%)\x1B[0m\x0D
+35:07.672 fota_flash_block: Erasing sector at offset 0x0003e000\x1B[0m\x0D
+35:08.881 download_client: Downloaded 258048/266740 bytes (96%)\x1B[0m\x0D
+35:08.934 fota_flash_block: Erasing sector at offset 0x0003f000\x1B[0m\x0D
+35:10.162 download_client: Downloaded 262144/266740 bytes (98%)\x1B[0m\x0D\x0A
+35:10.214 fota_flash_block: Erasing sector at offset 0x00040000\x1B[0m\x0D
+35:12.262 download_client: Downloaded 266240/266740 bytes (99%)\x1B[0m\x0D
+35:12.314 fota_flash_block: Erasing sector at offset 0x00041000\x1B[0m\x0D
+35:13.182 download_client: Downloaded 266740/266740 bytes (100%)\x1B[0m\x0D
+35:13.188 download_client: Download complete\x1B[0m\x0D
+35:13.240 fota_flash_block: Erasing sector at offset 0x00068000\x1B[0m\x0D\x0A
+35:13.297 dfu_target_mcuboot: MCUBoot image upgrade scheduled. Reset the device to apply\x1B[0m\x0D
+43:21.027 ***** Booting Zephyr OS build v2.0.99-ncs1 *****\x0D
+43:21.088 [00:00:00.004,974] \x1B[0m<inf> mcuboot: Starting bootloader\x1B[0m\x0D\x0A
+43:21.095 [00:00:00.013,275] \x1B[0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x1\x1B[0m\x0D\x0A
+43:21.104 [00:00:00.026,214] \x1B[0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3\x1B[0m\x0D\x0A
+43:21.110 [00:00:00.038,513] \x1B[0m<inf> mcuboot: Boot source: primary slot\x1B[0m\x0D\x0A
+43:21.111 [00:00:00.049,652] \x1B[0m<inf> mcuboot: Swap type: test\x1B[0m\x0D\x0A
+43:52.383 [00:00:31.433,258] \x1B[0m<inf> mcuboot: Bootloader chainload address offset: 0xc000\x1B[0m\x0D
+43:52.390 [00:00:31.440,734] \x1B[0m<inf> mcuboot: Jumping to the first image slot\x1B[0m\x0D\x0A
+43:52.415 ***** Booting Zephyr OS build v2.0.99-ncs1 *****\x0D\x0A
+43:52.417 Flash region\x09\x09Domain\x09\x09Permissions\x0D\x0A
+43:52.419 00 0x00000 0x08000 \x09Secure\x09\x09rwxl\x0D\x0A
+43:52.422 01 0x08000 0x10000 \x09Secure\x09\x09rwxl\x0D\x0A
+43:52.430 02 0x10000 0x18000 \x09Secure\x09\x09rwxl\x0D\x0A
+43:52.436 03 0x18000 0x20000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.437 04 0x20000 0x28000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.437 05 0x28000 0x30000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.450 06 0x30000 0x38000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.452 07 0x38000 0x40000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.454 08 0x40000 0x48000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.460 09 0x48000 0x50000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.467 10 0x50000 0x58000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.469 11 0x58000 0x60000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.470 12 0x60000 0x68000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.485 13 0x68000 0x70000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.487 14 0x70000 0x78000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.495 15 0x78000 0x80000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.503 16 0x80000 0x88000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.504 17 0x88000 0x90000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.505 18 0x90000 0x98000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.505 19 0x98000 0xa0000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.505 20 0xa0000 0xa8000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.506 21 0xa8000 0xb0000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.506 22 0xb0000 0xb8000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.520 23 0xb8000 0xc0000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.525 24 0xc0000 0xc8000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.531 25 0xc8000 0xd0000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.538 26 0xd0000 0xd8000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.539 27 0xd8000 0xe0000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.539 28 0xe0000 0xe8000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.540 29 0xe8000 0xf0000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.540 30 0xf0000 0xf8000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.541 31 0xf8000 0x100000 \x09Non-Secure\x09rwxl\x0D\x0A
+43:52.542 Non-secure callable region 0 placed in flash region 2 with size 32.\x0D\x0A\x0D\x0A
+43:52.672 SRAM region\x09\x09Domain\x09\x09Permissions\x0D
+43:52.676 00 0x00000 0x02000\x09Secure\x09\x09rwxl\x0D\x0A
+43:52.679 01 0x02000 0x04000\x09Secure\x09\x09rwxl\x0D\x0A
+43:52.681 02 0x04000 0x06000\x09Secure\x09\x09rwxl\x0D\x0A
+43:52.684 03 0x06000 0x08000\x09Secure\x09\x09rwxl\x0D\x0A
+43:52.687 04 0x08000 0x0a000\x09Secure\x09\x09rwxl\x0D\x0A
+43:52.693 05 0x0a000 0x0c000\x09Secure\x09\x09rwxl\x0D\x0A
+43:52.702 06 0x0c000 0x0e000\x09Secure\x09\x09rwxl\x0D\x0A
+43:52.765 07 0x0e000 0x10000\x09Secure\x09\x09rwxl\x0D\x0A
+43:52.767 08 0x10000 0x12000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.772 09 0x12000 0x14000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.773 10 0x14000 0x16000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.774 11 0x16000 0x18000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.792 12 0x18000 0x1a000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.802 13 0x1a000 0x1c000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.810 14 0x1c000 0x1e000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.814 15 0x1e000 0x20000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.817 16 0x20000 0x22000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.818 17 0x22000 0x24000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.819 18 0x24000 0x26000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.820 19 0x26000 0x28000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.820 20 0x28000 0x2a000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.821 21 0x2a000 0x2c000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.824 22 0x2c000 0x2e000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.829 23 0x2e000 0x30000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.838 24 0x30000 0x32000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.842 25 0x32000 0x34000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.843 26 0x34000 0x36000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.843 27 0x36000 0x38000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.845 28 0x38000 0x3a000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.846 29 0x3a000 0x3c000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.847 30 0x3c000 0x3e000\x09Non-Secure\x09rwxl\x0D\x0A
+43:52.848 31 0x3e000 0x40000\x09Non-Secure\x09rwxl\x0D\x0A\x0D\x0A
+43:52.849 Peripheral\x09\x09Domain\x09\x09Status\x0D\x0A
+43:52.850 00 NRF_P0               Non-Secure\x09OK\x0D\x0A
+43:52.867 01 NRF_CLOCK            Non-Secure\x09OK\x0D\x0A
+43:52.870 02 NRF_RTC1             Non-Secure\x09OK\x0D\x0A
+43:52.872 03 NRF_NVMC             Non-Secure\x09OK\x0D\x0A
+43:52.877 04 NRF_UARTE1           Non-Secure\x09OK\x0D\x0A
+43:52.878 05 NRF_UARTE2           Secure\x09\x09SKIP\x0D\x0A
+43:52.879 06 NRF_TWIM2            Non-Secure\x09OK\x0D\x0A
+43:52.879 07 NRF_SPIM3            Non-Secure\x09OK\x0D\x0A
+43:52.879 08 NRF_TIMER0           Non-Secure\x09OK\x0D\x0A
+43:52.880 09 NRF_TIMER1           Non-Secure\x09OK\x0D\x0A
+43:52.880 10 NRF_TIMER2           Non-Secure\x09OK\x0D\x0A
+43:52.880 11 NRF_SAADC            Non-Secure\x09OK\x0D\x0A
+43:52.881 12 NRF_PWM0             Non-Secure\x09OK\x0D\x0A
+43:52.881 13 NRF_PWM1             Non-Secure\x09OK\x0D\x0A
+43:52.881 14 NRF_PWM2             Non-Secure\x09OK\x0D\x0A
+43:52.882 15 NRF_PWM3             Non-Secure\x09OK\x0D\x0A
+43:52.882 16 NRF_WDT              Secure\x09\x09SKIP\x0D\x0A
+43:52.882 17 NRF_IPC              Non-Secure\x09OK\x0D\x0A
+43:52.883 18 NRF_VMC              Non-Secure\x09OK\x0D\x0A
+43:52.883 19 NRF_FPU              Non-Secure\x09OK\x0D\x0A
+43:52.884 20 NRF_EGU1             Non-Secure\x09OK\x0D\x0A
+43:52.884 21 NRF_EGU2             Non-Secure\x09OK\x0D\x0A
+43:52.886 22 NRF_DPPIC            Non-Secure\x09OK\x0D\x0A
+43:52.926 23 NRF_GPIOTE1          Non-Secure\x09OK\x0D\x0A
+43:52.928 24 NRF_REGULATORS       Secure\x09\x09SKIP\x0D\x0A\x0D\x0A
+43:52.931 SPM: NS image at 0x18200\x0D\x0A
+43:52.935 SPM: NS MSP at 0x200263d0\x0D\x0A
+43:52.936 SPM: NS reset vector at 0x1b0d5\x0D\x0A
+43:52.937 SPM: prepare to jump to Non-Secure image.\x0D\x0A
+43:52.938 ***** Booting Zephyr OS build v2.0.99-ncs1 *****\x0D\x0A
+43:52.938 Initializing bsdlib\x0D\x0A
+43:53.210 Initialized bsdlib\x0D
+43:53.212 LTE Link Connecting ...\x0D
+43:59.215 LTE Link Connected!\x0D
+43:59.219 Press Button 1 to start the FOTA download\x0D
+43:59.221 Predicted Class: 12\x0D\x0A

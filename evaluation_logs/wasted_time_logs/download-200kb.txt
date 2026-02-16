@@ -1,0 +1,61 @@
+2019-12-12T09:45:44.692Z DEBUG modem << ***** Booting Zephyr OS build v2.0.99-ncs1 *****\x0D\x0A
+2019-12-12T09:45:44.699Z DEBUG modem << Initializing bsdlib\x0D\x0A
+2019-12-12T09:45:44.861Z DEBUG modem << Initialized bsdlib\x0D\x0A
+2019-12-12T09:45:44.885Z DEBUG modem << LTE Link Connecting ...\x0D\x0A
+2019-12-12T09:45:49.132Z DEBUG modem << LTE Link Connected!\x0D\x0A
+2019-12-12T09:45:49.242Z DEBUG modem << Press Button 1 to start the FOTA download\x0D\x0A
+2019-12-12T09:45:49.247Z DEBUG modem << Predicted Class: 12\x0D\x0A\x0D\x0A
+2019-12-12T09:45:51.071Z DEBUG modem << [00:00:06.629,364] \x1B[0m<inf> download_client: Attempting to connect over IPv4\x1B[0m\x0D\x0A
+2019-12-12T09:45:51.480Z DEBUG modem << [00:00:07.033,142] \x1B[0m<inf> download_client: Connected to turbomemory1.s3-us-west-1.amazonaws.com\x1B[0m\x0D\x0A
+2019-12-12T09:45:51.484Z DEBUG modem << [00:00:07.042,083] \x1B[0m<inf> download_client: Downloading: app_update.bin [0]\x1B[0m\x0D\x0A
+2019-12-12T09:45:53.030Z DEBUG modem << [00:00:08.588,500] \x1B[0m<inf> download_client: Downloaded 4096/200000 bytes (2%)\x1B[0m\x0D\x0A
+2019-12-12T09:45:54.266Z DEBUG modem << [00:00:09.824,707] \x1B[0m<inf> download_client: Downloaded 8192/200000 bytes (4%)\x1B[0m\x0D\x0A
+2019-12-12T09:45:55.412Z DEBUG modem << [00:00:10.970,703] \x1B[0m<inf> download_client: Downloaded 12288/200000 bytes (6%)\x1B[0m\x0D\x0A
+2019-12-12T09:45:56.486Z DEBUG modem << [00:00:12.044,799] \x1B[0m<inf> download_client: Downloaded 16384/200000 bytes (8%)\x1B[0m\x0D\x0A
+2019-12-12T09:45:57.812Z DEBUG modem << [00:00:13.370,544] \x1B[0m<inf> download_client: Downloaded 20480/200000 bytes (10%)\x1B[0m\x0D\x0A
+2019-12-12T09:45:59.090Z DEBUG modem << [00:00:14.648,590] \x1B[0m<inf> download_client: Downloaded 24576/200000 bytes (12%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:00.389Z DEBUG modem << [00:00:15.947,601] \x1B[0m<inf> download_client: Downloaded 28672/200000 bytes (14%)\x1B[0m\x0D
+2019-12-12T09:46:01.695Z DEBUG modem << [00:00:17.253,692] \x1B[0m<inf> download_client: Downloaded 32768/200000 bytes (16%)\x1B[0m\x0D
+2019-12-12T09:46:02.930Z DEBUG modem << [00:00:18.488,677] \x1B[0m<inf> download_client: Downloaded 36864/200000 bytes (18%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:04.204Z DEBUG modem << [00:00:19.762,145] \x1B[0m<inf> download_client: Downloaded 40960/200000 bytes (20%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:05.490Z DEBUG modem << [00:00:21.048,614] \x1B[0m<inf> download_client: Downloaded 45056/200000 bytes (22%)\x1B[0m\x0D
+2019-12-12T09:46:06.785Z DEBUG modem << [00:00:22.337,677] \x1B[0m<inf> download_client: Downloaded 49152/200000 bytes (24%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:07.973Z DEBUG modem << [00:00:23.531,860] \x1B[0m<inf> download_client: Downloaded 53248/200000 bytes (26%)\x1B[0m\x0D
+2019-12-12T09:46:08.944Z DEBUG modem << [00:00:24.502,807] \x1B[0m<inf> download_client: Downloaded 57344/200000 bytes (28%)\x1B[0m\x0D
+2019-12-12T09:46:09.971Z DEBUG modem << [00:00:25.529,785] \x1B[0m<inf> download_client: Downloaded 61440/200000 bytes (30%)\x1B[0m\x0D
+2019-12-12T09:46:11.250Z DEBUG modem << [00:00:26.808,715] \x1B[0m<inf> download_client: Downloaded 65536/200000 bytes (32%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:12.462Z DEBUG modem << [00:00:28.019,744] \x1B[0m<inf> download_client: Downloaded 69632/200000 bytes (34%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:13.490Z DEBUG modem << [00:00:29.048,706] \x1B[0m<inf> download_client: Downloaded 73728/200000 bytes (36%)\x1B[0m\x0D
+2019-12-12T09:46:14.763Z DEBUG modem << [00:00:30.321,716] \x1B[0m<inf> download_client: Downloaded 77824/200000 bytes (38%)\x1B[0m\x0D
+2019-12-12T09:46:16.027Z DEBUG modem << [00:00:31.584,899] \x1B[0m<inf> download_client: Downloaded 81920/200000 bytes (40%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:17.408Z DEBUG modem << [00:00:32.966,888] \x1B[0m<inf> download_client: Downloaded 86016/200000 bytes (43%)\x1B[0m\x0D
+2019-12-12T09:46:18.619Z DEBUG modem << [00:00:34.177,795] \x1B[0m<inf> download_client: Downloaded 90112/200000 bytes (45%)\x1B[0m\x0D
+2019-12-12T09:46:19.936Z DEBUG modem << [00:00:35.494,903] \x1B[0m<inf> download_client: Downloaded 94208/200000 bytes (47%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:21.379Z DEBUG modem << [00:00:36.936,187] \x1B[0m<inf> download_client: Downloaded 98304/200000 bytes (49%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:22.416Z DEBUG modem << [00:00:37.975,067] \x1B[0m<inf> download_client: Downloaded 102400/200000 bytes (51%)\x1B[0m\x0D
+2019-12-12T09:46:23.785Z DEBUG modem << [00:00:39.343,078] \x1B[0m<inf> download_client: Downloaded 106496/200000 bytes (53%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:24.994Z DEBUG modem << [00:00:40.552,978] \x1B[0m<inf> download_client: Downloaded 110592/200000 bytes (55%)\x1B[0m\x0D
+2019-12-12T09:46:26.256Z DEBUG modem << [00:00:41.815,155] \x1B[0m<inf> download_client: Downloaded 114688/200000 bytes (57%)\x1B[0m\x0D
+2019-12-12T09:46:27.716Z DEBUG modem << [00:00:43.272,064] \x1B[0m<inf> download_client: Downloaded 118784/200000 bytes (59%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:28.915Z DEBUG modem << [00:00:44.473,999] \x1B[0m<inf> download_client: Downloaded 122880/200000 bytes (61%)\x1B[0m\x0D
+2019-12-12T09:46:30.211Z DEBUG modem << [00:00:45.770,141] \x1B[0m<inf> download_client: Downloaded 126976/200000 bytes (63%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:31.544Z DEBUG modem << [00:00:47.103,240] \x1B[0m<inf> download_client: Downloaded 131072/200000 bytes (65%)\x1B[0m\x0D
+2019-12-12T09:46:32.763Z DEBUG modem << [00:00:48.322,357] \x1B[0m<inf> download_client: Downloaded 135168/200000 bytes (67%)\x1B[0m\x0D
+2019-12-12T09:46:34.045Z DEBUG modem << [00:00:49.604,125] \x1B[0m<inf> download_client: Downloaded 139264/200000 bytes (69%)\x1B[0m\x0D
+2019-12-12T09:46:35.295Z DEBUG modem << [00:00:50.854,125] \x1B[0m<inf> download_client: Downloaded 143360/200000 bytes (71%)\x1B[0m\x0D
+2019-12-12T09:46:36.495Z DEBUG modem << [00:00:52.054,260] \x1B[0m<inf> download_client: Downloaded 147456/200000 bytes (73%)\x1B[0m\x0D
+2019-12-12T09:46:37.892Z DEBUG modem << [00:00:53.451,171] \x1B[0m<inf> download_client: Downloaded 151552/200000 bytes (75%)\x1B[0m\x0D
+2019-12-12T09:46:39.163Z DEBUG modem << [00:00:54.722,412] \x1B[0m<inf> download_client: Downloaded 155648/200000 bytes (77%)\x1B[0m\x0D
+2019-12-12T09:46:40.418Z DEBUG modem << [00:00:55.977,142] \x1B[0m<inf> download_client: Downloaded 159744/200000 bytes (79%)\x1B[0m\x0D
+2019-12-12T09:46:41.616Z DEBUG modem << [00:00:57.175,292] \x1B[0m<inf> download_client: Downloaded 163840/200000 bytes (81%)\x1B[0m\x0D
+2019-12-12T09:46:42.950Z DEBUG modem << [00:00:58.509,033] \x1B[0m<inf> download_client: Downloaded 167936/200000 bytes (83%)\x1B[0m\x0D
+2019-12-12T09:46:44.220Z DEBUG modem << [00:00:59.779,235] \x1B[0m<inf> download_client: Downloaded 172032/200000 bytes (86%)\x1B[0m\x0D
+2019-12-12T09:46:45.491Z DEBUG modem << [00:01:01.050,109] \x1B[0m<inf> download_client: Downloaded 176128/200000 bytes (88%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:46.683Z DEBUG modem << [00:01:02.242,523] \x1B[0m<inf> download_client: Downloaded 180224/200000 bytes (90%)\x1B[0m\x0D
+2019-12-12T09:46:47.740Z DEBUG modem << [00:01:03.299,224] \x1B[0m<inf> download_client: Downloaded 184320/200000 bytes (92%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:48.994Z DEBUG modem << [00:01:04.553,253] \x1B[0m<inf> download_client: Downloaded 188416/200000 bytes (94%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:50.283Z DEBUG modem << [00:01:05.842,712] \x1B[0m<inf> download_client: Downloaded 192512/200000 bytes (96%)\x1B[0m\x0D
+2019-12-12T09:46:51.494Z DEBUG modem << [00:01:07.052,307] \x1B[0m<inf> download_client: Downloaded 196608/200000 bytes (98%)\x1B[0m\x0D\x0A
+2019-12-12T09:46:52.230Z DEBUG modem << [00:01:07.789,276] \x1B[0m<inf> download_client: Downloaded 200000/200000 bytes (100%)\x1B[0m\x0D
+2019-12-12T09:46:52.355Z DEBUG modem << [00:01:07.796,966] \x1B[0m<inf> download_client: Download complete\x1B[0m\x0D\x0A
+2019-12-12T09:46:52.362Z DEBUG modem << Predicted Class: 12\x0D\x0A\x0D\x0A

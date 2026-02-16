@@ -1,0 +1,19 @@
+target/
+build/
+_build/
+.gdbinit
+*.swp
+*.DS_Store
+**/.vscode
+*.ipch
+*.code_workspace
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Private keys (DFU signing)
+*.key

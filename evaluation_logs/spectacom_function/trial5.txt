@@ -1,0 +1,13 @@
+2019-12-13T00:01:39.483Z DEBUG modem << ***** Booting Zephyr OS build v2.0.99-ncs1 *****\x0D\x0A
+2019-12-13T00:01:39.485Z DEBUG modem << Initializing bsdlib\x0D\x0A
+2019-12-13T00:01:39.572Z DEBUG modem << Initialized bsdlib\x0D\x0A
+2019-12-13T00:01:39.582Z DEBUG modem << LTE Link Connecting ...\x0D\x0A
+2019-12-13T00:01:43.615Z DEBUG modem << LTE Link Connected!\x0D
+2019-12-13T00:01:43.620Z DEBUG modem << Press Button 1 to start the FOTA download\x0D\x0A
+2019-12-13T00:01:43.625Z DEBUG modem << Predicted Class: 12\x0D\x0A\x0D\x0A
+2019-12-13T00:01:53.327Z DEBUG modem << [00:00:14.184,356] \x1B[0m<inf> download_client: Attempting to connect over IPv4\x1B[0m\x0D
+2019-12-13T00:01:53.998Z DEBUG modem << [00:00:14.853,118] \x1B[0m<inf> download_client: Connected to turbomemory1.s3-us-west-1.amazonaws.com\x1B[0m\x0D\x0A
+2019-12-13T00:01:54.124Z DEBUG modem << [00:00:14.862,091] \x1B[0m<inf> download_client: Downloading: app_update.bin [0]\x1B[0m\x0D\x0A
+2019-12-13T00:01:54.798Z DEBUG modem << [00:00:15.653,503] \x1B[0m<inf> download_client: Downloaded 391/391 bytes (100%)\x1B[0m\x0D\x0A
+2019-12-13T00:01:54.808Z DEBUG modem << [00:00:15.660,675] \x1B[0m<inf> download_client: Download complete\x1B[0m\x0D\x0A
+2019-12-13T00:01:54.825Z DEBUG modem << Predicted Class: 12\x0D\x0A\x0D\x0A

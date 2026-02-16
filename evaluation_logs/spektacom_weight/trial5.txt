@@ -1,0 +1,20 @@
+2019-12-12T23:45:41.422Z DEBUG modem << ***** Booting Zephyr OS build v2.0.99-ncs1 *****\x0D\x0A
+2019-12-12T23:45:41.424Z DEBUG modem << Initializing bsdlib\x0D\x0A
+2019-12-12T23:45:42.953Z DEBUG modem << Initialized bsdlib\x0D
+2019-12-12T23:45:42.960Z DEBUG modem << LTE Link Connecting ...\x0D\x0A
+2019-12-12T23:45:46.822Z DEBUG modem << LTE Link Connected!\x0D\x0A
+2019-12-12T23:45:46.829Z DEBUG modem << Press Button 1 to start the FOTA download\x0D\x0A
+2019-12-12T23:45:46.832Z DEBUG modem << Predicted Class: 12\x0D\x0A\x0D\x0A
+2019-12-12T23:45:49.176Z DEBUG modem << [00:00:07.939,361] \x1B[0m<inf> download_client: Attempting to connect over IPv4\x1B[0m\x0D
+2019-12-12T23:45:49.557Z DEBUG modem << [00:00:08.318,908] \x1B[0m<inf> download_client: Connected to turbomemory1.s3-us-west-1.amazonaws.com\x1B[0m\x0D
+2019-12-12T23:45:49.564Z DEBUG modem << [00:00:08.327,880] \x1B[0m<inf> download_client: Downloading: app_update.bin [0]\x1B[0m\x0D
+2019-12-12T23:45:50.792Z DEBUG modem << [00:00:09.555,236] \x1B[0m<inf> download_client: Downloaded 4096/31484 bytes (13%)\x1B[0m\x0D\x0A
+2019-12-12T23:45:51.883Z DEBUG modem << [00:00:10.646,423] \x1B[0m<inf> download_client: Downloaded 8192/31484 bytes (26%)\x1B[0m\x0D
+2019-12-12T23:45:52.980Z DEBUG modem << [00:00:11.740,478] \x1B[0m<inf> download_client: Downloaded 12288/31484 bytes (39%)\x1B[0m\x0D\x0A
+2019-12-12T23:45:54.203Z DEBUG modem << [00:00:12.966,308] \x1B[0m<inf> download_client: Downloaded 16384/31484 bytes (52%)\x1B[0m\x0D\x0A
+2019-12-12T23:45:55.386Z DEBUG modem << [00:00:14.149,414] \x1B[0m<inf> download_client: Downloaded 20480/31484 bytes (65%)\x1B[0m\x0D
+2019-12-12T23:45:56.442Z DEBUG modem << [00:00:15.205,596] \x1B[0m<inf> download_client: Downloaded 24576/31484 bytes (78%)\x1B[0m\x0D
+2019-12-12T23:45:57.660Z DEBUG modem << [00:00:16.423,461] \x1B[0m<inf> download_client: Downloaded 28672/31484 bytes (91%)\x1B[0m\x0D
+2019-12-12T23:45:58.314Z DEBUG modem << [00:00:17.072,601] \x1B[0m<inf> download_client: Downloaded 31484/31484 bytes (100%)\x1B[0m\x0D\x0A
+2019-12-12T23:45:58.329Z DEBUG modem << [00:00:17.080,139] \x1B[0m<inf> download_client: Download complete\x1B[0m\x0D\x0A
+2019-12-12T23:45:58.332Z DEBUG modem << Predicted Class: 12\x0D\x0A\x0D\x0A

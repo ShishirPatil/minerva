@@ -1,0 +1,259 @@
+2019-12-13T00:30:48.378Z DEBUG modem << ***** Booting Zephyr OS build v2.0.99-ncs1 *****\x0D\x0A
+2019-12-13T00:30:48.378Z DEBUG modem << Initializing bsdlib\x0D\x0A
+2019-12-13T00:30:48.644Z DEBUG modem << Initialized bsdlib\x0D\x0A
+2019-12-13T00:30:48.648Z DEBUG modem << LTE Link Connecting ...\x0D\x0A
+2019-12-13T00:32:47.624Z DEBUG modem << LTE Link Connected!\x0D\x0A
+2019-12-13T00:32:47.658Z DEBUG modem << Press Button 1 to start the FOTA download\x0D\x0A
+2019-12-13T00:32:47.661Z DEBUG modem << Predicted Class: 12\x0D\x0A
+2019-12-13T00:33:41.879Z DEBUG modem << [00:02:53.572,631] \x1B[0m<inf> download_client: Attempting to connect over IPv4\x1B[0m\x0D\x0A
+2019-12-13T00:33:42.543Z DEBUG modem << [00:02:54.234,313] \x1B[0m<inf> download_client: Connected to turbomemory1.s3-us-west-1.amazonaws.com\x1B[0m\x0D\x0A
+2019-12-13T00:33:42.549Z DEBUG modem << [00:02:54.243,255] \x1B[0m<inf> download_client: Downloading: app_update.bin [0]\x1B[0m\x0D
+2019-12-13T00:33:44.284Z DEBUG modem << [00:02:55.971,557] \x1B[0m<inf> download_client: Downloaded 4096/266740 bytes (1%)\x1B[0m\x0D\x0A
+2019-12-13T00:33:44.294Z DEBUG modem << [00:02:55.978,881] \x1B[0m<inf> fota_download: Offset: 0x0\x1B[0m\x0D\x0A
+2019-12-13T00:33:44.308Z DEBUG modem << [00:02:55.984,191] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00000000\x1B[0m\x0D\x0A
+2019-12-13T00:33:44.428Z DEBUG modem << [00:02:56.122,436] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00001000\x1B[0m\x0D
+2019-12-13T00:33:45.660Z DEBUG modem << [00:02:57.354,583] \x1B[0m<inf> download_client: Downloaded 8192/266740 bytes (3%)\x1B[0m\x0D\x0A
+2019-12-13T00:33:45.714Z DEBUG modem << [00:02:57.407,501] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00002000\x1B[0m\x0D\x0A
+2019-12-13T00:33:46.941Z DEBUG modem << [00:02:58.634,826] \x1B[0m<inf> download_client: Downloaded 12288/266740 bytes (4%)\x1B[0m\x0D
+2019-12-13T00:33:46.994Z DEBUG modem << [00:02:58.687,805] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00003000\x1B[0m\x0D\x0A
+2019-12-13T00:33:48.710Z DEBUG modem << [00:03:00.404,724] \x1B[0m<inf> download_client: Downloaded 16384/266740 bytes (6%)\x1B[0m\x0D\x0A
+2019-12-13T00:33:48.776Z DEBUG modem << [00:03:00.457,733] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00004000\x1B[0m\x0D\x0A
+2019-12-13T00:33:49.911Z DEBUG modem << [00:03:01.604,736] \x1B[0m<inf> download_client: Downloaded 20480/266740 bytes (7%)\x1B[0m\x0D\x0A
+2019-12-13T00:33:49.981Z DEBUG modem << [00:03:01.657,775] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00005000\x1B[0m\x0D\x0A
+2019-12-13T00:33:51.628Z DEBUG modem << [00:03:03.322,692] \x1B[0m<inf> download_client: Downloaded 24576/266740 bytes (9%)\x1B[0m\x0D
+2019-12-13T00:33:51.681Z DEBUG modem << [00:03:03.375,701] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00006000\x1B[0m\x0D
+2019-12-13T00:33:53.073Z DEBUG modem << [00:03:04.763,763] \x1B[0m<inf> download_client: Downloaded 28672/266740 bytes (10%)\x1B[0m\x0D\x0A
+2019-12-13T00:33:53.123Z DEBUG modem << [00:03:04.816,864] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00007000\x1B[0m\x0D\x0A
+2019-12-13T00:33:54.315Z DEBUG modem << [00:03:06.004,791] \x1B[0m<inf> download_client: Downloaded 32768/266740 bytes (12%)\x1B[0m\x0D\x0A
+2019-12-13T00:33:54.372Z DEBUG modem << [00:03:06.057,861] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00008000\x1B[0m\x0D\x0A
+2019-12-13T00:33:55.581Z DEBUG modem << [00:03:07.274,932] \x1B[0m<inf> download_client: Downloaded 36864/266740 bytes (13%)\x1B[0m\x0D\x0A
+2019-12-13T00:33:55.634Z DEBUG modem << [00:03:07.328,002] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00009000\x1B[0m\x0D\x0A
+2019-12-13T00:33:56.904Z DEBUG modem << [00:03:08.594,879] \x1B[0m<inf> download_client: Downloaded 40960/266740 bytes (15%)\x1B[0m\x0D\x0A
+2019-12-13T00:33:57.027Z DEBUG modem << [00:03:08.647,918] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0000a000\x1B[0m\x0D\x0A
+2019-12-13T00:33:58.141Z DEBUG modem << [00:03:09.834,869] \x1B[0m<inf> download_client: Downloaded 45056/266740 bytes (16%)\x1B[0m\x0D\x0A
+2019-12-13T00:33:58.194Z DEBUG modem << [00:03:09.887,939] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0000b000\x1B[0m\x0D\x0A
+2019-12-13T00:33:59.459Z DEBUG modem << [00:03:11.152,862] \x1B[0m<inf> download_client: Downloaded 49152/266740 bytes (18%)\x1B[0m\x0D\x0A
+2019-12-13T00:33:59.512Z DEBUG modem << [00:03:11.205,932] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0000c000\x1B[0m\x0D\x0A
+2019-12-13T00:34:00.674Z DEBUG modem << [00:03:12.368,988] \x1B[0m<inf> download_client: Downloaded 53248/266740 bytes (19%)\x1B[0m\x0D
+2019-12-13T00:34:00.729Z DEBUG modem << [00:03:12.422,058] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0000d000\x1B[0m\x0D\x0A
+2019-12-13T00:34:01.982Z DEBUG modem << [00:03:13.675,903] \x1B[0m<inf> download_client: Downloaded 57344/266740 bytes (21%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:02.042Z DEBUG modem << [00:03:13.728,973] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0000e000\x1B[0m\x0D\x0A
+2019-12-13T00:34:03.272Z DEBUG modem << [00:03:14.965,820] \x1B[0m<inf> download_client: Downloaded 61440/266740 bytes (23%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:03.340Z DEBUG modem << [00:03:15.018,890] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0000f000\x1B[0m\x0D\x0A
+2019-12-13T00:34:04.622Z DEBUG modem << [00:03:16.316,925] \x1B[0m<inf> download_client: Downloaded 65536/266740 bytes (24%)\x1B[0m\x0D
+2019-12-13T00:34:04.675Z DEBUG modem << [00:03:16.369,995] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00010000\x1B[0m\x0D
+2019-12-13T00:34:05.837Z DEBUG modem << [00:03:17.524,841] \x1B[0m<inf> download_client: Downloaded 69632/266740 bytes (26%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:05.918Z DEBUG modem << [00:03:17.577,911] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00011000\x1B[0m\x0D\x0A
+2019-12-13T00:34:07.589Z DEBUG modem << [00:03:19.282,867] \x1B[0m<inf> download_client: Downloaded 73728/266740 bytes (27%)\x1B[0m\x0D
+2019-12-13T00:34:07.641Z DEBUG modem << [00:03:19.335,968] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00012000\x1B[0m\x0D\x0A
+2019-12-13T00:34:08.711Z DEBUG modem << [00:03:20.406,097] \x1B[0m<inf> download_client: Downloaded 77824/266740 bytes (29%)\x1B[0m\x0D
+2019-12-13T00:34:08.765Z DEBUG modem << [00:03:20.459,167] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00013000\x1B[0m\x0D\x0A
+2019-12-13T00:34:09.920Z DEBUG modem << [00:03:21.614,074] \x1B[0m<inf> download_client: Downloaded 81920/266740 bytes (30%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:09.973Z DEBUG modem << [00:03:21.667,144] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00014000\x1B[0m\x0D
+2019-12-13T00:34:11.270Z DEBUG modem << [00:03:22.963,897] \x1B[0m<inf> download_client: Downloaded 86016/266740 bytes (32%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:11.322Z DEBUG modem << [00:03:23.016,967] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00015000\x1B[0m\x0D
+2019-12-13T00:34:12.520Z DEBUG modem << [00:03:24.215,026] \x1B[0m<inf> download_client: Downloaded 90112/266740 bytes (33%)\x1B[0m\x0D
+2019-12-13T00:34:12.574Z DEBUG modem << [00:03:24.268,096] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00016000\x1B[0m\x0D\x0A
+2019-12-13T00:34:13.830Z DEBUG modem << [00:03:25.523,895] \x1B[0m<inf> download_client: Downloaded 94208/266740 bytes (35%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:13.882Z DEBUG modem << [00:03:25.577,026] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00017000\x1B[0m\x0D
+2019-12-13T00:34:15.081Z DEBUG modem << [00:03:26.775,054] \x1B[0m<inf> download_client: Downloaded 98304/266740 bytes (36%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:15.180Z DEBUG modem << [00:03:26.828,125] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00018000\x1B[0m\x0D\x0A
+2019-12-13T00:34:16.381Z DEBUG modem << [00:03:28.075,073] \x1B[0m<inf> download_client: Downloaded 102400/266740 bytes (38%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:16.453Z DEBUG modem << [00:03:28.128,234] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00019000\x1B[0m\x0D\x0A
+2019-12-13T00:34:17.662Z DEBUG modem << [00:03:29.356,079] \x1B[0m<inf> download_client: Downloaded 106496/266740 bytes (39%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:17.719Z DEBUG modem << [00:03:29.409,240] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0001a000\x1B[0m\x0D\x0A
+2019-12-13T00:34:18.940Z DEBUG modem << [00:03:30.634,033] \x1B[0m<inf> download_client: Downloaded 110592/266740 bytes (41%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:19.022Z DEBUG modem << [00:03:30.687,194] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0001b000\x1B[0m\x0D\x0A
+2019-12-13T00:34:20.221Z DEBUG modem << [00:03:31.916,259] \x1B[0m<inf> download_client: Downloaded 114688/266740 bytes (42%)\x1B[0m\x0D
+2019-12-13T00:34:20.275Z DEBUG modem << [00:03:31.969,421] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0001c000\x1B[0m\x0D
+2019-12-13T00:34:21.770Z DEBUG modem << [00:03:33.465,087] \x1B[0m<inf> download_client: Downloaded 118784/266740 bytes (44%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:21.825Z DEBUG modem << [00:03:33.518,249] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0001d000\x1B[0m\x0D
+2019-12-13T00:34:23.140Z DEBUG modem << [00:03:34.834,136] \x1B[0m<inf> download_client: Downloaded 122880/266740 bytes (46%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:23.214Z DEBUG modem << [00:03:34.887,298] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0001e000\x1B[0m\x0D\x0A
+2019-12-13T00:34:24.391Z DEBUG modem << [00:03:36.085,174] \x1B[0m<inf> download_client: Downloaded 126976/266740 bytes (47%)\x1B[0m\x0D
+2019-12-13T00:34:24.444Z DEBUG modem << [00:03:36.138,305] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0001f000\x1B[0m\x0D
+2019-12-13T00:34:25.661Z DEBUG modem << [00:03:37.354,064] \x1B[0m<inf> download_client: Downloaded 131072/266740 bytes (49%)\x1B[0m\x0D
+2019-12-13T00:34:25.714Z DEBUG modem << [00:03:37.407,196] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00020000\x1B[0m\x0D\x0A
+2019-12-13T00:34:27.431Z DEBUG modem << [00:03:39.126,281] \x1B[0m<inf> download_client: Downloaded 135168/266740 bytes (50%)\x1B[0m\x0D
+2019-12-13T00:34:27.484Z DEBUG modem << [00:03:39.179,412] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00021000\x1B[0m\x0D
+2019-12-13T00:34:28.560Z DEBUG modem << [00:03:40.254,272] \x1B[0m<inf> download_client: Downloaded 139264/266740 bytes (52%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:28.612Z DEBUG modem << [00:03:40.307,403] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00022000\x1B[0m\x0D
+2019-12-13T00:34:29.843Z DEBUG modem << [00:03:41.537,231] \x1B[0m<inf> download_client: Downloaded 143360/266740 bytes (53%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:29.895Z DEBUG modem << [00:03:41.590,362] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00023000\x1B[0m\x0D
+2019-12-13T00:34:31.106Z DEBUG modem << [00:03:42.797,241] \x1B[0m<inf> download_client: Downloaded 147456/266740 bytes (55%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:31.155Z DEBUG modem << [00:03:42.850,341] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00024000\x1B[0m\x0D
+2019-12-13T00:34:32.842Z DEBUG modem << [00:03:44.536,285] \x1B[0m<inf> download_client: Downloaded 151552/266740 bytes (56%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:32.927Z DEBUG modem << [00:03:44.589,416] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00025000\x1B[0m\x0D\x0A
+2019-12-13T00:34:33.958Z DEBUG modem << [00:03:45.652,160] \x1B[0m<inf> download_client: Downloaded 155648/266740 bytes (58%)\x1B[0m\x0D
+2019-12-13T00:34:34.011Z DEBUG modem << [00:03:45.705,291] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00026000\x1B[0m\x0D
+2019-12-13T00:34:35.749Z DEBUG modem << [00:03:47.444,213] \x1B[0m<inf> download_client: Downloaded 159744/266740 bytes (59%)\x1B[0m\x0D
+2019-12-13T00:34:35.803Z DEBUG modem << [00:03:47.497,314] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00027000\x1B[0m\x0D\x0A
+2019-12-13T00:34:37.200Z DEBUG modem << [00:03:48.893,218] \x1B[0m<inf> download_client: Downloaded 163840/266740 bytes (61%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:37.251Z DEBUG modem << [00:03:48.946,350] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00028000\x1B[0m\x0D
+2019-12-13T00:34:38.482Z DEBUG modem << [00:03:50.177,246] \x1B[0m<inf> download_client: Downloaded 167936/266740 bytes (62%)\x1B[0m\x0D
+2019-12-13T00:34:38.542Z DEBUG modem << [00:03:50.230,346] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00029000\x1B[0m\x0D\x0A
+2019-12-13T00:34:39.763Z DEBUG modem << [00:03:51.457,458] \x1B[0m<inf> download_client: Downloaded 172032/266740 bytes (64%)\x1B[0m\x0D
+2019-12-13T00:34:39.815Z DEBUG modem << [00:03:51.510,589] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0002a000\x1B[0m\x0D
+2019-12-13T00:34:40.961Z DEBUG modem << [00:03:52.655,426] \x1B[0m<inf> download_client: Downloaded 176128/266740 bytes (66%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:41.014Z DEBUG modem << [00:03:52.708,587] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0002b000\x1B[0m\x0D
+2019-12-13T00:34:42.302Z DEBUG modem << [00:03:53.995,300] \x1B[0m<inf> download_client: Downloaded 180224/266740 bytes (67%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:42.369Z DEBUG modem << [00:03:54.048,431] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0002c000\x1B[0m\x0D\x0A
+2019-12-13T00:34:43.553Z DEBUG modem << [00:03:55.247,406] \x1B[0m<inf> download_client: Downloaded 184320/266740 bytes (69%)\x1B[0m\x0D
+2019-12-13T00:34:43.605Z DEBUG modem << [00:03:55.300,537] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0002d000\x1B[0m\x0D
+2019-12-13T00:34:45.380Z DEBUG modem << [00:03:57.075,408] \x1B[0m<inf> download_client: Downloaded 188416/266740 bytes (70%)\x1B[0m\x0D
+2019-12-13T00:34:45.434Z DEBUG modem << [00:03:57.128,540] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0002e000\x1B[0m\x0D\x0A
+2019-12-13T00:34:46.863Z DEBUG modem << [00:03:58.557,434] \x1B[0m<inf> download_client: Downloaded 192512/266740 bytes (72%)\x1B[0m\x0D
+2019-12-13T00:34:46.915Z DEBUG modem << [00:03:58.610,534] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0002f000\x1B[0m\x0D
+2019-12-13T00:34:48.562Z DEBUG modem << [00:04:00.256,469] \x1B[0m<inf> download_client: Downloaded 196608/266740 bytes (73%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:48.614Z DEBUG modem << [00:04:00.309,600] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00030000\x1B[0m\x0D
+2019-12-13T00:34:49.640Z DEBUG modem << [00:04:01.335,479] \x1B[0m<inf> download_client: Downloaded 200704/266740 bytes (75%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:49.694Z DEBUG modem << [00:04:01.388,610] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00031000\x1B[0m\x0D
+2019-12-13T00:34:50.947Z DEBUG modem << [00:04:02.636,596] \x1B[0m<inf> download_client: Downloaded 204800/266740 bytes (76%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:51.038Z DEBUG modem << [00:04:02.689,758] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00032000\x1B[0m\x0D\x0A
+2019-12-13T00:34:52.177Z DEBUG modem << [00:04:03.872,528] \x1B[0m<inf> download_client: Downloaded 208896/266740 bytes (78%)\x1B[0m\x0D
+2019-12-13T00:34:52.231Z DEBUG modem << [00:04:03.925,659] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00033000\x1B[0m\x0D
+2019-12-13T00:34:53.772Z DEBUG modem << [00:04:05.467,437] \x1B[0m<inf> download_client: Downloaded 212992/266740 bytes (79%)\x1B[0m\x0D
+2019-12-13T00:34:53.833Z DEBUG modem << [00:04:05.520,568] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00034000\x1B[0m\x0D\x0A
+2019-12-13T00:34:55.600Z DEBUG modem << [00:04:07.294,464] \x1B[0m<inf> download_client: Downloaded 217088/266740 bytes (81%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:55.652Z DEBUG modem << [00:04:07.347,595] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00035000\x1B[0m\x0D
+2019-12-13T00:34:56.709Z DEBUG modem << [00:04:08.404,479] \x1B[0m<inf> download_client: Downloaded 221184/266740 bytes (82%)\x1B[0m\x0D
+2019-12-13T00:34:56.765Z DEBUG modem << [00:04:08.457,611] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00036000\x1B[0m\x0D\x0A
+2019-12-13T00:34:58.002Z DEBUG modem << [00:04:09.696,685] \x1B[0m<inf> download_client: Downloaded 225280/266740 bytes (84%)\x1B[0m\x0D\x0A
+2019-12-13T00:34:58.071Z DEBUG modem << [00:04:09.749,816] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00037000\x1B[0m\x0D\x0A
+2019-12-13T00:34:59.220Z DEBUG modem << [00:04:10.915,496] \x1B[0m<inf> download_client: Downloaded 229376/266740 bytes (85%)\x1B[0m\x0D
+2019-12-13T00:34:59.273Z DEBUG modem << [00:04:10.968,627] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00038000\x1B[0m\x0D
+2019-12-13T00:35:00.540Z DEBUG modem << [00:04:12.235,504] \x1B[0m<inf> download_client: Downloaded 233472/266740 bytes (87%)\x1B[0m\x0D\x0A
+2019-12-13T00:35:00.608Z DEBUG modem << [00:04:12.288,635] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00039000\x1B[0m\x0D\x0A
+2019-12-13T00:35:01.839Z DEBUG modem << [00:04:13.534,545] \x1B[0m<inf> download_client: Downloaded 237568/266740 bytes (89%)\x1B[0m\x0D
+2019-12-13T00:35:01.907Z DEBUG modem << [00:04:13.587,677] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0003a000\x1B[0m\x0D\x0A
+2019-12-13T00:35:03.104Z DEBUG modem << [00:04:14.798,645] \x1B[0m<inf> download_client: Downloaded 241664/266740 bytes (90%)\x1B[0m\x0D
+2019-12-13T00:35:03.192Z DEBUG modem << [00:04:14.851,776] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0003b000\x1B[0m\x0D\x0A
+2019-12-13T00:35:04.350Z DEBUG modem << [00:04:16.045,654] \x1B[0m<inf> download_client: Downloaded 245760/266740 bytes (92%)\x1B[0m\x0D
+2019-12-13T00:35:04.406Z DEBUG modem << [00:04:16.098,785] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0003c000\x1B[0m\x0D\x0A
+2019-12-13T00:35:06.171Z DEBUG modem << [00:04:17.866,577] \x1B[0m<inf> download_client: Downloaded 249856/266740 bytes (93%)\x1B[0m\x0D
+2019-12-13T00:35:06.225Z DEBUG modem << [00:04:17.919,708] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0003d000\x1B[0m\x0D\x0A
+2019-12-13T00:35:07.619Z DEBUG modem << [00:04:19.314,697] \x1B[0m<inf> download_client: Downloaded 253952/266740 bytes (95%)\x1B[0m\x0D
+2019-12-13T00:35:07.672Z DEBUG modem << [00:04:19.367,828] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0003e000\x1B[0m\x0D
+2019-12-13T00:35:08.881Z DEBUG modem << [00:04:20.576,721] \x1B[0m<inf> download_client: Downloaded 258048/266740 bytes (96%)\x1B[0m\x0D
+2019-12-13T00:35:08.934Z DEBUG modem << [00:04:20.629,821] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x0003f000\x1B[0m\x0D
+2019-12-13T00:35:10.162Z DEBUG modem << [00:04:21.856,719] \x1B[0m<inf> download_client: Downloaded 262144/266740 bytes (98%)\x1B[0m\x0D\x0A
+2019-12-13T00:35:10.214Z DEBUG modem << [00:04:21.909,851] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00040000\x1B[0m\x0D
+2019-12-13T00:35:12.262Z DEBUG modem << [00:04:23.956,665] \x1B[0m<inf> download_client: Downloaded 266240/266740 bytes (99%)\x1B[0m\x0D
+2019-12-13T00:35:12.314Z DEBUG modem << [00:04:24.009,765] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00041000\x1B[0m\x0D
+2019-12-13T00:35:13.182Z DEBUG modem << [00:04:24.876,953] \x1B[0m<inf> download_client: Downloaded 266740/266740 bytes (100%)\x1B[0m\x0D
+2019-12-13T00:35:13.188Z DEBUG modem << [00:04:24.884,643] \x1B[0m<inf> download_client: Download complete\x1B[0m\x0D
+2019-12-13T00:35:13.240Z DEBUG modem << [00:04:24.897,094] \x1B[0m<inf> fota_flash_block: Erasing sector at offset 0x00068000\x1B[0m\x0D\x0A
+2019-12-13T00:35:13.297Z DEBUG modem << [00:04:24.990,020] \x1B[0m<inf> dfu_target_mcuboot: MCUBoot image upgrade scheduled. Reset the device to apply\x1B[0m\x0D
+2019-12-13T00:43:21.027Z DEBUG modem << ***** Booting Zephyr OS build v2.0.99-ncs1 *****\x0D
+2019-12-13T00:43:21.088Z DEBUG modem << [00:00:00.004,974] \x1B[0m<inf> mcuboot: Starting bootloader\x1B[0m\x0D\x0A
+2019-12-13T00:43:21.095Z DEBUG modem << [00:00:00.013,275] \x1B[0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x1\x1B[0m\x0D\x0A
+2019-12-13T00:43:21.104Z DEBUG modem << [00:00:00.026,214] \x1B[0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3\x1B[0m\x0D\x0A
+2019-12-13T00:43:21.110Z DEBUG modem << [00:00:00.038,513] \x1B[0m<inf> mcuboot: Boot source: primary slot\x1B[0m\x0D\x0A
+2019-12-13T00:43:21.111Z DEBUG modem << [00:00:00.049,652] \x1B[0m<inf> mcuboot: Swap type: test\x1B[0m\x0D\x0A
+2019-12-13T00:43:52.383Z DEBUG modem << [00:00:31.433,258] \x1B[0m<inf> mcuboot: Bootloader chainload address offset: 0xc000\x1B[0m\x0D
+2019-12-13T00:43:52.390Z DEBUG modem << [00:00:31.440,734] \x1B[0m<inf> mcuboot: Jumping to the first image slot\x1B[0m\x0D\x0A
+2019-12-13T00:43:52.415Z DEBUG modem << ***** Booting Zephyr OS build v2.0.99-ncs1 *****\x0D\x0A
+2019-12-13T00:43:52.417Z DEBUG modem << Flash region\x09\x09Domain\x09\x09Permissions\x0D\x0A
+2019-12-13T00:43:52.419Z DEBUG modem << 00 0x00000 0x08000 \x09Secure\x09\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.422Z DEBUG modem << 01 0x08000 0x10000 \x09Secure\x09\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.430Z DEBUG modem << 02 0x10000 0x18000 \x09Secure\x09\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.436Z DEBUG modem << 03 0x18000 0x20000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.437Z DEBUG modem << 04 0x20000 0x28000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.437Z DEBUG modem << 05 0x28000 0x30000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.450Z DEBUG modem << 06 0x30000 0x38000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.452Z DEBUG modem << 07 0x38000 0x40000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.454Z DEBUG modem << 08 0x40000 0x48000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.460Z DEBUG modem << 09 0x48000 0x50000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.467Z DEBUG modem << 10 0x50000 0x58000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.469Z DEBUG modem << 11 0x58000 0x60000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.470Z DEBUG modem << 12 0x60000 0x68000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.485Z DEBUG modem << 13 0x68000 0x70000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.487Z DEBUG modem << 14 0x70000 0x78000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.495Z DEBUG modem << 15 0x78000 0x80000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.503Z DEBUG modem << 16 0x80000 0x88000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.504Z DEBUG modem << 17 0x88000 0x90000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.505Z DEBUG modem << 18 0x90000 0x98000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.505Z DEBUG modem << 19 0x98000 0xa0000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.505Z DEBUG modem << 20 0xa0000 0xa8000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.506Z DEBUG modem << 21 0xa8000 0xb0000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.506Z DEBUG modem << 22 0xb0000 0xb8000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.520Z DEBUG modem << 23 0xb8000 0xc0000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.525Z DEBUG modem << 24 0xc0000 0xc8000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.531Z DEBUG modem << 25 0xc8000 0xd0000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.538Z DEBUG modem << 26 0xd0000 0xd8000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.539Z DEBUG modem << 27 0xd8000 0xe0000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.539Z DEBUG modem << 28 0xe0000 0xe8000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.540Z DEBUG modem << 29 0xe8000 0xf0000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.540Z DEBUG modem << 30 0xf0000 0xf8000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.541Z DEBUG modem << 31 0xf8000 0x100000 \x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.542Z DEBUG modem << Non-secure callable region 0 placed in flash region 2 with size 32.\x0D\x0A\x0D\x0A
+2019-12-13T00:43:52.672Z DEBUG modem << SRAM region\x09\x09Domain\x09\x09Permissions\x0D
+2019-12-13T00:43:52.676Z DEBUG modem << 00 0x00000 0x02000\x09Secure\x09\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.679Z DEBUG modem << 01 0x02000 0x04000\x09Secure\x09\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.681Z DEBUG modem << 02 0x04000 0x06000\x09Secure\x09\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.684Z DEBUG modem << 03 0x06000 0x08000\x09Secure\x09\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.687Z DEBUG modem << 04 0x08000 0x0a000\x09Secure\x09\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.693Z DEBUG modem << 05 0x0a000 0x0c000\x09Secure\x09\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.702Z DEBUG modem << 06 0x0c000 0x0e000\x09Secure\x09\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.765Z DEBUG modem << 07 0x0e000 0x10000\x09Secure\x09\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.767Z DEBUG modem << 08 0x10000 0x12000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.772Z DEBUG modem << 09 0x12000 0x14000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.773Z DEBUG modem << 10 0x14000 0x16000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.774Z DEBUG modem << 11 0x16000 0x18000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.792Z DEBUG modem << 12 0x18000 0x1a000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.802Z DEBUG modem << 13 0x1a000 0x1c000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.810Z DEBUG modem << 14 0x1c000 0x1e000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.814Z DEBUG modem << 15 0x1e000 0x20000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.817Z DEBUG modem << 16 0x20000 0x22000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.818Z DEBUG modem << 17 0x22000 0x24000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.819Z DEBUG modem << 18 0x24000 0x26000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.820Z DEBUG modem << 19 0x26000 0x28000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.820Z DEBUG modem << 20 0x28000 0x2a000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.821Z DEBUG modem << 21 0x2a000 0x2c000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.824Z DEBUG modem << 22 0x2c000 0x2e000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.829Z DEBUG modem << 23 0x2e000 0x30000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.838Z DEBUG modem << 24 0x30000 0x32000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.842Z DEBUG modem << 25 0x32000 0x34000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.843Z DEBUG modem << 26 0x34000 0x36000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.843Z DEBUG modem << 27 0x36000 0x38000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.845Z DEBUG modem << 28 0x38000 0x3a000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.846Z DEBUG modem << 29 0x3a000 0x3c000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.847Z DEBUG modem << 30 0x3c000 0x3e000\x09Non-Secure\x09rwxl\x0D\x0A
+2019-12-13T00:43:52.848Z DEBUG modem << 31 0x3e000 0x40000\x09Non-Secure\x09rwxl\x0D\x0A\x0D\x0A
+2019-12-13T00:43:52.849Z DEBUG modem << Peripheral\x09\x09Domain\x09\x09Status\x0D\x0A
+2019-12-13T00:43:52.850Z DEBUG modem << 00 NRF_P0               Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.867Z DEBUG modem << 01 NRF_CLOCK            Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.870Z DEBUG modem << 02 NRF_RTC1             Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.872Z DEBUG modem << 03 NRF_NVMC             Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.877Z DEBUG modem << 04 NRF_UARTE1           Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.878Z DEBUG modem << 05 NRF_UARTE2           Secure\x09\x09SKIP\x0D\x0A
+2019-12-13T00:43:52.879Z DEBUG modem << 06 NRF_TWIM2            Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.879Z DEBUG modem << 07 NRF_SPIM3            Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.879Z DEBUG modem << 08 NRF_TIMER0           Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.880Z DEBUG modem << 09 NRF_TIMER1           Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.880Z DEBUG modem << 10 NRF_TIMER2           Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.880Z DEBUG modem << 11 NRF_SAADC            Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.881Z DEBUG modem << 12 NRF_PWM0             Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.881Z DEBUG modem << 13 NRF_PWM1             Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.881Z DEBUG modem << 14 NRF_PWM2             Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.882Z DEBUG modem << 15 NRF_PWM3             Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.882Z DEBUG modem << 16 NRF_WDT              Secure\x09\x09SKIP\x0D\x0A
+2019-12-13T00:43:52.882Z DEBUG modem << 17 NRF_IPC              Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.883Z DEBUG modem << 18 NRF_VMC              Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.883Z DEBUG modem << 19 NRF_FPU              Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.884Z DEBUG modem << 20 NRF_EGU1             Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.884Z DEBUG modem << 21 NRF_EGU2             Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.886Z DEBUG modem << 22 NRF_DPPIC            Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.926Z DEBUG modem << 23 NRF_GPIOTE1          Non-Secure\x09OK\x0D\x0A
+2019-12-13T00:43:52.928Z DEBUG modem << 24 NRF_REGULATORS       Secure\x09\x09SKIP\x0D\x0A\x0D\x0A
+2019-12-13T00:43:52.931Z DEBUG modem << SPM: NS image at 0x18200\x0D\x0A
+2019-12-13T00:43:52.935Z DEBUG modem << SPM: NS MSP at 0x200263d0\x0D\x0A
+2019-12-13T00:43:52.936Z DEBUG modem << SPM: NS reset vector at 0x1b0d5\x0D\x0A
+2019-12-13T00:43:52.937Z DEBUG modem << SPM: prepare to jump to Non-Secure image.\x0D\x0A
+2019-12-13T00:43:52.938Z DEBUG modem << ***** Booting Zephyr OS build v2.0.99-ncs1 *****\x0D\x0A
+2019-12-13T00:43:52.938Z DEBUG modem << Initializing bsdlib\x0D\x0A
+2019-12-13T00:43:53.210Z DEBUG modem << Initialized bsdlib\x0D
+2019-12-13T00:43:53.212Z DEBUG modem << LTE Link Connecting ...\x0D
+2019-12-13T00:43:59.215Z DEBUG modem << LTE Link Connected!\x0D
+2019-12-13T00:43:59.219Z DEBUG modem << Press Button 1 to start the FOTA download\x0D
+2019-12-13T00:43:59.221Z DEBUG modem << Predicted Class: 12\x0D\x0A
