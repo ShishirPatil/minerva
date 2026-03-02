@@ -7,11 +7,13 @@
 # and send it to the second binary so that it can update its
 # data and code sections while running
 
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
 make clean || { exit 1; }
 cp utils/new_utils.h utils.h || { exit 1; }
 cp models/new_model.h model.h || { exit 1; }
 make || { exit 1; }
-python3 container-update/gen-byte-array.py _build/*.elf container-update/contents.h .container-code .container-data || { exit 1; }
+python3 "${SCRIPT_DIR}/gen-byte-array.py" _build/*.elf container-update/contents.h .container-code .container-data || { exit 1; }
 make clean || { exit 1; }
 cp models/old_model.h model.h || { exit 1; }
 cp utils/old_utils.h utils.h || { exit 1; }

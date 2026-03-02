@@ -144,11 +144,24 @@ nrfjprog --version
 ### 2. Clone and Set Up the Repository
 
 ```bash
-git clone https://github.com/ShishirPatil/minerva-eurosys-artifact.git
-cd minerva-eurosys-artifact
+git clone https://github.com/ShishirPatil/minerva.git
+cd minerva
 ```
 
-Ensure the nRF5 SDK is available. The build system expects it at the path configured in `improved-octo-doodle/src/nrf52x-base/`. Check that `SDK_ROOT` points to your SDK installation (see `makefile-hierarchy.md` for details).
+**Clone the nrf52x-base build framework** (required for all builds):
+```bash
+git clone --recursive https://github.com/lab11/nrf52x-base.git improved-octo-doodle/src/nrf52x-base
+```
+
+**Install the Nordic nRF5 SDK v15.3.0:**
+
+Download `nRF5SDK153059ac345.zip` from [Nordic's SDK page](https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK) and extract it into the expected path:
+```bash
+mkdir -p improved-octo-doodle/src/nrf52x-base/sdk
+unzip nRF5SDK153059ac345.zip -d improved-octo-doodle/src/nrf52x-base/sdk/nrf5_sdk_15.3.0
+```
+
+> **Note:** The other zip files on the Nordic download page (s112, s132, s140) are SoftDevice BLE binaries and are **not** needed for building capsule applications (which use `SOFTDEVICE_MODEL = blank`).
 
 ### 3. Build a Capsule Application
 
@@ -160,7 +173,7 @@ cd improved-octo-doodle/src/apps/farmbeats
 
 **Option A: Full automated build + flash** (requires hardware):
 ```bash
-../../container-update/run.sh
+./run.sh
 ```
 
 This script performs the complete capsule update workflow:
@@ -179,7 +192,7 @@ arm-none-eabi-size _build/*.elf
 arm-none-eabi-objdump -h _build/*.elf    # View section layout
 
 # Extract capsule sections
-python3 container-update/gen-byte-array.py \
+python3 ../../container-update/gen-byte-array.py \
     _build/*.elf \
     container-update/contents.h \
     .container-code \
@@ -211,6 +224,8 @@ Predicted Class: 12
 SWITCHING
 Predicted Class: 7      # <-- different class after capsule swap
 ```
+
+> **Troubleshooting garbled serial output:** If the output appears as garbled/random characters, verify that (1) the baud rate is set to **115200**, (2) you are connected to the correct serial port (the J-Link CDC UART port, not the debug port), and (3) the board has been reset after flashing (press the RESET button on the DK, or power-cycle it).
 
 ## How Capsule Updates Work
 
@@ -319,7 +334,7 @@ make
 arm-none-eabi-size _build/*.elf          # Full firmware size (for DFU)
 
 # 3. Extract capsule (new model only)
-python3 container-update/gen-byte-array.py \
+python3 ../../container-update/gen-byte-array.py \
     _build/*.elf \
     container-update/contents.h \
     .container-code .container-data
