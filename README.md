@@ -4,6 +4,9 @@ Minerva is an end-to-end system for enabling efficient, state-preserving ML mode
 
 **Paper:** *Efficient ML Model Updates for Deeply Embedded Microcontrollers* (EuroSys 2025, Submission #622)
 
+> **Disclaimer:** The application code and ML models included in this repository are *representative* implementations used to demonstrate and evaluate the Minerva capsule update framework.
+
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -60,7 +63,7 @@ minerva/
 │           ├── farmbeats/         #     Agricultural sensor classification
 │           ├── gesturepod/        #     Gesture recognition
 │           ├── Powerblade/        #     Power monitoring
-│           ├── spektacom/         #     Cricket bat sensor analytics
+│           ├── sportsanalytics/         #     Sports sensor analytics
 │           ├── container/         #     Basic UART + LED demo
 │           ├── diff/              #     Differential update demo
 │           └── esp/               #     UART echo with predictor
@@ -275,7 +278,7 @@ Each application demonstrates capsule updates with a different ML model:
 | **farmbeats** | Agriculture | Neural Network | Classifies agricultural sensor readings |
 | **gesturepod** | HCI | Neural Network | Recognizes hand gestures from IMU data |
 | **Powerblade** | Energy | Neural Network | Power monitoring and classification |
-| **spektacom** | Sports | 2-layer NN | Cricket bat impact analytics |
+| **sportsanalytics** | Sports | 2-layer NN | Sports sensor analytics |
 
 Each application directory contains:
 - `main.c` -- Application entry point with capsule swap logic
@@ -339,12 +342,21 @@ python3 ../../container-update/gen-byte-array.py \
     container-update/contents.h \
     .container-code .container-data
 
-# 4. Compare sizes
-wc -c container-update/contents.h        # Capsule payload size
-ls -la _build/*.hex                      # Full DFU image size
+# 4. Compare sizes (corresponds to Table 4 in the paper)
+#    Capsule size = .container-code + .container-data sections
+arm-none-eabi-objdump -h _build/*.elf | grep container
+#    Example output for farmbeats:
+#      .container-code  00000220  (544 bytes  ≈ 0.53 KB = Operators)
+#      .container-data  000015e8  (5608 bytes ≈ 5.47 KB = Weights)
+#      Total capsule                           ≈ 6.00 KB = Operators & Weights
+#
+#    Full firmware size (text + data from ELF):
+arm-none-eabi-size _build/*.elf
+#    The "Full DFU" column in Table 4 reflects the OTA DFU
+#    package size from hardware experiments (see evaluation_logs/)
 ```
 
-Repeat for `gesturepod`, `Powerblade`, and `spektacom` to reproduce all size comparison data.
+Repeat for `gesturepod`, `Powerblade`, and `sportsanalytics` to reproduce all size comparison data.
 
 Pre-collected evaluation logs are available in `evaluation_logs/` for reference. See [Evaluation Logs](#evaluation-logs) below for details on how to interpret them.
 
@@ -374,9 +386,9 @@ evaluation_logs/
 ├── powerblade-function/
 ├── powerblade-function+weight/
 ├── powerblade-full_dfu/
-├── spektacom_weight/           # (same structure for spektacom)
-├── spectacom_function/
-├── spectacom_weight+function/
+├── sportsanalytics_weight/           # (same structure for sportsanalytics)
+├── sportsanalytics_function/
+├── sportsanalytics_weight+function/
 └── wasted_time_logs/           # Download-only timing at various payload sizes
     ├── download-5.2kb.txt
     ├── download-6.2kb.txt
@@ -385,7 +397,7 @@ evaluation_logs/
     ├── download-40.375kb.txt
     ├── download-90kb.txt
     ├── download-200kb.txt
-    └── full_dfu_spektacom_213.996kb.txt
+    └── full_dfu_sportsanalytics_213.996kb.txt
 ```
 
 ### Log Format
