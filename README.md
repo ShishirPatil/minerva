@@ -2,7 +2,9 @@
 
 Minerva is an end-to-end system for enabling efficient, state-preserving ML model updates on deeply embedded microcontrollers (MCUs). Instead of performing full device firmware updates (DFUs) every time an ML model changes, Minerva isolates model code and weights into **capsules** -- fixed memory regions with a stable `predict()` entrypoint. This allows lightweight, non-disruptive updates (weights-only, operators-only, or full capsule) without rebooting the device.
 
-**Paper:** *Efficient ML Model Updates for Deeply Embedded Microcontrollers* (EuroSys 2025, Submission #622)
+**Zenodo:** https://doi.org/10.5281/zenodo.18861015
+
+**Paper:** *Efficient ML Model Updates for Deeply Embedded Microcontrollers* 
 
 > **Disclaimer:** The application code and ML models included in this repository are *representative* implementations used to demonstrate and evaluate the Minerva capsule update framework.
 
